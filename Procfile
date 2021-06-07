@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn testproject.wsgi --log-file -
+web: gunicorn codedaddies_list.wsgi
